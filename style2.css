@@ -1,0 +1,34 @@
+.sidebar{
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar li{
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.sidebar li a {
+    color: black;
+}
+
+.sidebar li:hover,
+.sidebar li.active{
+    border-color: black;
+    background-color: black;
+}
+
+.sidebar li.active a{
+    color: white;
+}
+
+.row{
+    margin-left: 20px;
+}
+.image{
+    margin-left: 50px;
+}
+.container-fluid{
+    background-image: url(img.jpg);
+}
